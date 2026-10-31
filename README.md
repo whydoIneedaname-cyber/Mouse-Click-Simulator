@@ -4,7 +4,7 @@
 
 ---
 
-## 📖 保姆级使用教程（零基础）
+## 📖 保姆级使用教程
 
 下面的每一步都有截图级的文字说明，照做就行。
 
@@ -34,7 +34,7 @@ dotnet --version
 继续在刚才的 PowerShell 窗口里，**逐行输入**以下命令（每输入一行按一次回车）：
 
 ```powershell
-cd D:\agy\MouseClickSimulator
+cd xxxxxxx
 ```
 
 ```powershell
@@ -56,7 +56,7 @@ Build succeeded.
 **你的 exe 文件在哪里？**
 
 ```
-D:\agy\MouseClickSimulator\bin\Release\net10.0-windows\MouseClickSimulator.exe
+D:xxxxxx
 ```
 
 你可以用文件管理器打开这个路径，找到 `MouseClickSimulator.exe`。
@@ -69,7 +69,7 @@ D:\agy\MouseClickSimulator\bin\Release\net10.0-windows\MouseClickSimulator.exe
 
 **方式 A：双击运行**
 1. 打开文件管理器
-2. 导航到 `D:\agy\MouseClickSimulator\bin\Release\net10.0-windows\`
+2. 导航到 `D:xxxxx`
 3. 双击 `MouseClickSimulator.exe`
 
 **方式 B：在 PowerShell 里运行**（推荐，这样你能看到可能的错误信息）
@@ -231,9 +231,8 @@ D:\agy\MouseClickSimulator\
 
 1. 本工具仅用于 **合法的安全测试和自动化场景**
 2. 运行时会 **控制你的鼠标光标**，确保没有重要的未保存工作
-3. **Esc 键是你的救命稻草**，随时可以按
+3. **Esc 键是你的救命稻草**，随时可以按以终止任务。
 4. 建议测试时先设一个较小的"最大次数"（比如 10 或 20），确认效果后再放开
 
 ---
-
-*Happy testing! 🚀*
+特别声明：以上内容含有AI生成部分，请合理判断后使用
